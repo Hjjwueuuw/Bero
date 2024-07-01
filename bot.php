@@ -3,11 +3,11 @@ date_default_timezone_set("Asia/Baghdad");
 error_reporting(0);
 require("conf.php"); 
 if (!file_exists("token")) {
-$token =  readline("Enter Token => ");
+$token =  readline("7358813197:AAHs28AoiglcIXkp8xvfq6De8u8b8ww2HI8 => ");
 file_put_contents("token", $token);
 }
 if (!file_exists("ID")) {
-$id = readline("Enter iD => ");
+$id = readline("1534317836 => ");
 file_put_contents("ID", $id);
 }
 $sudo = file_get_contents('ID');
